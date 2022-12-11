@@ -73,23 +73,42 @@
 
 // alert(`привет, ${namee}`);
 
-console.log(4+ '5');
+// console.log(4+ '5');
 
-let incr = 10,
-    decr = 10;
+// let incr = 10,
+//     decr = 10;
 
-incr++;
-decr--;
+// incr++;
+// decr--;
 
-console.log(incr);
-console.log(decr);
+// console.log(incr);
+// console.log(decr);
 
-console.log(6 == "6");
-console.log(2 + 2 * 2 === "6");
+// console.log(6 == "6");
+// console.log(2 + 2 * 2 === "6");
 
-const isChecked = true,
-        isColse = false;
+// const isChecked = true,
+//         isColse = false;
 
-console.log(!isChecked || isColse);
+// console.log(!isChecked || isColse);
 
+const numberOfFilms = +prompt('How much films did you seen?', '');
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    ganres: [],
+    private: false
+};
+
+const moviesWatched = prompt('Last film you seen', '');
+const raitingOfFilm = prompt('Raiting of this film', '');
+const moviesWatched2 = prompt('Last film you seen', '');
+const raitingOfFilm2 = prompt('Raiting of this film', '');
+
+personalMovieDB.movies[moviesWatched] = raitingOfFilm;
+personalMovieDB.movies[moviesWatched2] = raitingOfFilm2;
+
+console.log(personalMovieDB);
 
