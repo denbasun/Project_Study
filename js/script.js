@@ -1,4 +1,4 @@
-// "use strict";
+"use strict";
 
 // let number = 4.6;
 // console.log(-4/0);
@@ -91,24 +91,60 @@
 //         isColse = false;
 
 // console.log(!isChecked || isColse);
+// -----------------------------------------------------------------------
+// const numberOfFilms = +prompt('How much films did you seen?', '');
 
-const numberOfFilms = +prompt('How much films did you seen?', '');
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     ganres: [],
+//     private: false
+// };
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    ganres: [],
-    private: false
-};
+// const moviesWatched = prompt('Last film you seen', '');
+// const raitingOfFilm = prompt('Raiting of this film', '');
+// const moviesWatched2 = prompt('Last film you seen', '');
+// const raitingOfFilm2 = prompt('Raiting of this film', '');
 
-const moviesWatched = prompt('Last film you seen', '');
-const raitingOfFilm = prompt('Raiting of this film', '');
-const moviesWatched2 = prompt('Last film you seen', '');
-const raitingOfFilm2 = prompt('Raiting of this film', '');
+// personalMovieDB.movies[moviesWatched] = raitingOfFilm;
+// personalMovieDB.movies[moviesWatched2] = raitingOfFilm2;
 
-personalMovieDB.movies[moviesWatched] = raitingOfFilm;
-personalMovieDB.movies[moviesWatched2] = raitingOfFilm2;
+// console.log(personalMovieDB);
 
-console.log(personalMovieDB);
+// ------------------------------------------------------------------------
 
+if (4 == 9) {
+    console.log('OK!');
+} else {
+    console.log('Error');
+}
+
+
+
+const num = 50;
+if (num < 49) {
+    console.log('Error');
+} else if ( num > 100) {
+    console.log('A lot');
+} else {
+    console.log('OK!');
+}
+// Тернарный оператор - он тернарный потому что в его работе участвует аже 3 аргумента и это единственный такой в js
+(num === 50) ? console.log('OK!') : console.log('Error');
+// Switch
+const num2 = 50;
+switch (num2) {
+    case 49:
+        console.log('NO!');
+        break;
+    case 100:
+        console.log('NO!Bigger!');
+        break;
+    case 50:
+        console.log('OK!');
+        break;    
+    default:
+        console.log('Not this time');              
+        break;  
+}
