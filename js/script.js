@@ -114,24 +114,24 @@
 
 // ------------------------------------------------------------------------
 
-if (4 == 9) {
-    console.log('OK!');
-} else {
-    console.log('Error');
-}
+// if (4 == 9) {
+//     console.log('OK!');
+// } else {
+//     console.log('Error');
+// }
 
 
 
-const num = 50;
-if (num < 49) {
-    console.log('Error');
-} else if ( num > 100) {
-    console.log('A lot');
-} else {
-    console.log('OK!');
-}
+// const num = 50;
+// if (num < 49) {
+//     console.log('Error');
+// } else if ( num > 100) {
+//     console.log('A lot');
+// } else {
+//     console.log('OK!');
+// }
 // Тернарный оператор - он тернарный потому что в его работе участвует аже 3 аргумента и это единственный такой в js
-(num === 50) ? console.log('OK!') : console.log('Error');
+// (num === 50) ? console.log('OK!') : console.log('Error');
 // Switch
 const num2 = 50;
 switch (num2) {
