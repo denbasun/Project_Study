@@ -133,18 +133,124 @@
 // Тернарный оператор - он тернарный потому что в его работе участвует аже 3 аргумента и это единственный такой в js
 // (num === 50) ? console.log('OK!') : console.log('Error');
 // Switch
-const num2 = 50;
-switch (num2) {
-    case 49:
-        console.log('NO!');
-        break;
-    case 100:
-        console.log('NO!Bigger!');
-        break;
-    case 50:
-        console.log('OK!');
-        break;    
-    default:
-        console.log('Not this time');              
-        break;  
+// const num2 = 50;
+// switch (num2) {
+//     case 49:
+//         console.log('NO!');
+//         break;
+//     case 100:
+//         console.log('NO!Bigger!');
+//         break;
+//     case 50:
+//         console.log('OK!');
+//         break;    
+//     default:
+//         console.log('Not this time');              
+//         break;  
+// }
+// const hamburger = 5;
+// const fries = 0;
+
+// if(hamburger && fries) {
+//     console.log('я сыт')
+// }
+ 
+// И - оператор
+// console.log((hamburger && fries));
+
+// const hamburger = 3;
+// const fries = 1;
+// const cola = 0;
+
+// console.log(hamburger === 3 && cola && fries );
+// console.log(1 && 0);
+// console.log(1 && 5);
+// console.log(null && 5);
+// console.log(0 && "fwewfewfew");
+
+// if(hamburger === 3 && cola === 1 && fries ) {
+//     console.log('Все сыты');
+// } else {
+//     console.log('Уходим');
+// }
+
+// ИЛИ-оператор
+
+// const hamburger = 0;
+// const fries = null;
+// const cola = 0;
+
+// if(hamburger || cola || fries ) {
+//     console.log('Все довльны');
+// } else {
+//     console.log('Уходим');
+// }
+// console.log(hamburger || cola || fries);
+
+// let johnReport, alexReport, samReport, mariaReport = 'done';
+
+// console.log (johnReport || alexReport || samReport || mariaReport);
+
+// let hamburger;
+// const fries = NaN;
+// const cola = 0;
+// const nuggets = 2;
+ 
+// if (hamburger || cola || fries === 3 || nuggets) {
+//    console.log('Done!')
+// }
+
+// let hamburger;
+// const fries = NaN;
+// const cola = 0;
+// const nuggets = 2;
+ 
+// if (hamburger && cola || fries === 3 && nuggets) {
+//    console.log('Done!')
+// }else {
+//     console.log('Wrong!')
+// };
+
+// Цыкы
+
+// let num = 50;
+
+// while (num <= 57) {
+//     console.log(num);
+//     num++;
+// }
+
+// let num = 50;
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num < 55);
+
+// for (let i = 1;  i < 8; i++) {
+//     console.log(i);
+// }
+
+// let num = 50;
+
+// for (let i = 1;  i < 8; i++) {
+//     console.log(num);
+//     num++;
+// }
+
+
+
+// for (let i = 1;  i < 8; i++) {
+//     if (i === 3 ) {
+//         break;
+//     }
+//     console.log(i);
+// }
+
+for (let i = 1;  i < 8; i++) {
+    if (i === 3 ) {
+        continue;
+    }
+    console.log(i);
 }
+
